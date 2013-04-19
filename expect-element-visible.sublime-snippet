@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[expect(element('${1:selector}:not([style*="display: none"])').count()).toBe(1);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>exv</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js.jasmine</scope>
+</snippet>
